@@ -2,6 +2,9 @@ from sys import *
 from math import *
 
 def train(num_of_iters):
+	'''
+	training function
+	'''
 	arguements = {}
 	training_database = open('lowbwt.arff','r')
 	lines = training_database.readlines()
