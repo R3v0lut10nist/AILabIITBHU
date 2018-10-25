@@ -4,6 +4,9 @@ from sklearn.metrics import confusion_matrix
 from sklearn.metrics import classification_report
 
 def sigmoid(z):
+	'''
+	returns sigmoid value
+	'''
 	return 1.0/(1+exp(-1*z))
 
 def train(num_of_iters):
